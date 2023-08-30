@@ -36,49 +36,9 @@ To test the significance of the relation, R-squared is calculated. Also, the rel
 # Method:
 Define the multiple linear regression model equation:
 
-�
+y
 =
-�
-0
-+
-�
-1
-�
-1
-+
-�
-2
-�
-2
-+
-…
-+
-�
-�
-�
-�
-y=b 
-0
-​
- +b 
-1
-​
- x 
-1
-​
- +b 
-2
-​
- x 
-2
-​
- +…+b 
-n
-​
- x 
-n
-​
- 
+b<sup>0</sup> + b<sup>1</sup>x<sup>1</sup> + b<sup>2</sup>x<sup>2</sup> + ...+ b<sup>n</sup>x<sup>n</sup> 
 
 Where 
 �
