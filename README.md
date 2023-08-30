@@ -44,6 +44,17 @@ Y be the vector of dependent variable values.
 
 <img width="418" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/0a35f283-caa6-4a39-85db-491fba4b5c8a">
 
+
+
+
+
+
+
 <img width="488" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/2ab9e000-3802-4f71-960e-1a469737bb6b">
+
+
+
+
+
 
 <img width="493" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/d139f74d-87ee-455c-8907-d2a21366373d">
