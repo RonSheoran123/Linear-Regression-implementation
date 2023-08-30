@@ -34,127 +34,18 @@ Here, we use numPy and Pandas to establish a linear relation between the respons
 To test the significance of the relation, R-squared is calculated. Also, the relation is compared with the **Linear Regression Model from ScikitLearn**
 
 # Method:
-Define the multiple linear regression model equation:
+<img width="466" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/6cb222ba-5262-4d10-bf64-ee2c2da8b63c">
 
-y
-=
-b<sup>0</sup> + b<sup>1</sup>x<sup>1</sup> + b<sup>2</sup>x<sup>2</sup> + ...+ b<sup>n</sup>x<sup>n</sup> 
 
-Where 
-�
-y is the dependent variable(response variable), and 
-�
-1
-,
-�
-2
-,
-…
-,
-�
-�
-x 
-1
-​
- ,x 
-2
-​
- ,…,x 
-n
-​
-  are the independent variables(regressor variables).
-
-  Represent your dataset in matrix form. Let 
-�
+Represent your dataset in matrix form. Let 
 X be the matrix of independent variables (with each row representing an observation and each column representing a different independent variable), and 
-�
-y be the vector of dependent variable values.
-
-Include a column of ones in the matrix 
-�
-X to represent the constant term (
-�
-0
-b 
-0
-​
- ).
+Y be the vector of dependent variable values.
 
 
- The coefficients 
-�
-0
-,
-�
-1
-,
-…
-,
-�
-�
-b 
-0
-​
- ,b 
-1
-​
- ,…,b 
-n
-​
-  can be estimated using various methods. The most common method is the least squares approach, which minimizes the sum of squared differences between the actual 
-�
-y values and the predicted 
-�
-y values.
-
-The formula for estimating the coefficients is:
-
-�
-=
-(
-�
-⊺
-�
-)
-−
-1
-�
-⊺
-�
-b=(X 
-⊺
- X) 
-−1
- X 
-⊺
- y
-
-Where 
-�
-b is the vector of coefficients, 
-�
-⊺
-X 
-⊺
-  is the transpose of the 
-�
-X matrix, and 
-�
-y is the vector of dependent variable values.
+<img width="418" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/0a35f283-caa6-4a39-85db-491fba4b5c8a">
 
 
-Evaluate the fit of your model by analyzing the residuals (the differences between actual 
-�
-y values and predicted 
-�
-y values). Common metrics include the coefficient of determination (
-�
-2
-R 
-2
- ) and adjusted 
-�
-2
-R 
-2
- , as well as visualizations like scatter plots and residual plots.
+<img width="488" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/2ab9e000-3802-4f71-960e-1a469737bb6b">
+
+
+<img width="512" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-implementation/assets/106268100/e1a574e2-db2e-4e82-a9f5-716205d0319f">
